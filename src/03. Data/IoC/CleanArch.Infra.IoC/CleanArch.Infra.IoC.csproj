@@ -7,12 +7,11 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <Folder Include="Courses\Dto\" />
-    <Folder Include="Courses\Entities\" />
+    <PackageReference Include="Microsoft.Extensions.DependencyInjection" Version="6.0.0" />
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\..\01. Common\CleanArch.Common\CleanArch.Common.csproj" />
+    <ProjectReference Include="..\..\..\02. Core\CleanArch.ApplicationServices\CleanArch.ApplicationServices.csproj" />
   </ItemGroup>
 
 </Project>

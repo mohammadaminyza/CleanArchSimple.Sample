@@ -12,4 +12,8 @@
     <Folder Include="Courses\UpdateCourse\" />
   </ItemGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\..\03. Data\Data\CleanArch.Infra.Data.SqlServer\CleanArch.Infra.Data.SqlServer.csproj" />
+  </ItemGroup>
+
 </Project>
