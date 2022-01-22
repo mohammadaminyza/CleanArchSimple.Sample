@@ -1,4 +1,4 @@
-﻿namespace CleanArch.Infra.Data.SqlServer.Common;
+﻿namespace CleanArch.Domain.Common;
 
 public interface IRepository
 {

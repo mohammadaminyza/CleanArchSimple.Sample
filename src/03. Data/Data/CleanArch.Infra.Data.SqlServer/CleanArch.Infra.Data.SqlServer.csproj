@@ -10,4 +10,8 @@
     <ProjectReference Include="..\..\..\02. Core\CleanArch.Domain\CleanArch.Domain.csproj" />
   </ItemGroup>
 
+  <ItemGroup>
+    <Folder Include="Common\" />
+  </ItemGroup>
+
 </Project>
